@@ -1,0 +1,1 @@
+This is my web development internship's Task 02, at Prodigy InfoTech. This project aims to create an user friendly stopwatch, by implementing functions such as start, pause and reset, as well as tracking and displaying lap timings, that enables users to accurately measure and record time intervals. Used html to structure, css for styling and javascript for interactivity.
