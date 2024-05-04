@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Make body fill the viewport height */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    background-image: url('https://marketplace.canva.com/EAFUFiGX5ek/1/0/1600w/canva-colorful-watercolor-floral-linktree-background-qRHfsd-4Nmc.jpg'); /* Specify the background image */
+    background-size: 100% auto; /* Set background size to 100% width and auto height */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+  }
+  
+  .container {
+    border-radius: 50%; /* Make the container round */
+    border: 10px solid #000; /* Black border */
+    width: 500px; /* Adjust width to fit content */
+    height: 500px; /* Adjust height to fit content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Light gray background inside */
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3); /* Vintage shadow effect */
+    transition: all 0.3s ease; /* Smooth transition for resizing */
+  }
+  
+  .timer {
+    font-size: 3em;
+    color: #b675d0; /* Blue color for the timer */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Vintage text shadow */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .buttons button {
+    background-color: #e56af8; /* Blue color for the buttons */
+    color: #fff; /* White text color for the buttons */
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 10px; /* Make the buttons rectangular */
+    font-size: 1.2em; /* Increase font size */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Vintage button shadow */
+  }
+  
+  .buttons button:last-child {
+    margin-right: 0; /* Remove right margin from last button */
+  }
+  
+  .buttons button:hover {
+    background-color: #cc00ad; /* Darker blue color on hover */
+  }
+  
+  .lap-times {
+    margin-top: 20px;
+    text-align: left;
+    color: #822482; /* Blue color for the lap times */
+  }
+  
+  .lap-times ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lap-times li {
+    margin-bottom: 5px;
+  }
+  
+  
+  
